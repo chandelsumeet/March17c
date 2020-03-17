@@ -1,0 +1,175 @@
+.color-blue
+{
+    color: #619eff;
+}
+.color-white
+{
+    color: white;
+}
+.color-gray
+{
+    color: #9a9fa6;
+}
+.bg-blue
+{
+    background-color: #619eff;
+}
+.bg-gray
+{
+    background-color: #9a9fa6;
+}
+
+.color-black
+{
+    color: black;
+}
+
+.f-w600
+{
+    font-weight: 600;
+}
+
+.f-s27
+{
+    font-size: 27px;
+}
+
+.f-s40
+{
+    font-size: 40px;
+}
+.f-s16
+{
+    font-size: 16px;
+}
+.f-s20
+{
+    font-size: 20px;
+}
+.parent
+{
+    position: relative;
+    
+}
+.child
+{
+  
+    position: absolute;
+
+    bottom: -15px;
+    left: 29px;
+}
+.pad1
+{
+    padding: 2rem;
+}
+.gridm
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 0.5rem;
+    justify-content: left;
+}
+.border-radius4
+{
+    border-radius: 4px;
+}
+.img1
+{
+    border-radius: 50%;
+    width: 40px;
+}
+
+.img2
+{
+    border-radius: 50%;
+    width: 60px;
+}
+.grid-g
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 0.5rem;
+    justify-content: left;
+}
+.sec1-main
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    row-gap: 1.5rem;
+    position: relative;
+    
+}
+.card-coll
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 0.5rem;
+}
+.t-c
+{
+    text-align: center;
+}
+.sec2-main
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    border: 1px solid #9a9fa6;
+}
+
+.pad2
+{
+    padding: 0 0 1rem 1.5rem;
+}
+.grid-d
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 1rem;
+}
+.grid-h
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    row-gap: 1rem;
+}
+.b-m
+{
+    border-bottom: 1px solid #9a9fa6;
+}
+.pad4
+{
+    padding: 1rem 0;
+}
+
+.label-gen
+{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #bec3cc;
+    border-radius: 50%;
+}
+.label-grid
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 0.5rem;
+    justify-content: center;
+}
+.tab1
+{
+    display: none;
+}
+.tab2
+{
+    display: none;
+}
+#radio1:checked ~ .tab1
+{
+    display: grid;
+}
+#radio2:checked ~ .tab2
+{
+    display: grid;
+}
